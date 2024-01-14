@@ -37,7 +37,7 @@ module.exports = {
     },
 
     fontFamily:{
-      Monserrat:['Monserrat', 'sans-serif']
+      Monserrat:['Montserrat Alternates','Montserrat', 'sans-serif']
     }
       
     },
