@@ -1,0 +1,24 @@
+box 
+
+p- pading
+
+m- margin
+
+
+
+w- : whidht
+
+min-w- : minWhit
+
+max-w-
+
+h- : height
+
+bg background
+
+****** declarar variables 
+
+en el archivo tailwind.config.js
+
+
+

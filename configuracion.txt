@@ -1,0 +1,37 @@
+En la terminal
+    nmp init
+
+    npm install -D tailwindcss
+    npx tailwindcss init ->     ete crea el modulo de configuracion
+
+    en tailwind.config.js 
+
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+----------- content: ["./src/**/*.{html,js}"],  //
+            theme: {
+            extend: {},
+             },
+
+            plugins: [],
+        }
+    
+    en content en la parte src va la carpeta en la cual vamos a guardar el index y los archivos principales
+
+    crear la carpeta src
+
+        dentro de esta crear un archivo css y pegar esta configuracion
+
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+
+--  en la terminal
+
+    npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch
+
+                    -i  refiede el imput       -o refiere a el ouput o donde va a estar el index
+
+    
+    por ultimo se crea el archivo index.html y se conecta con el output css
+
