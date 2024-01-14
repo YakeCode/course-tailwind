@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .card {
-    @apply w-48 h-64 shadow-md rounded-lg;
+    @apply w-48 h-64 shadow-md rounded-lg flex-none;
 }
