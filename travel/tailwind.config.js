@@ -36,11 +36,26 @@ module.exports = {
       'terciary': '#61aec9',
     },
 
+    ringColor:{
+      'primary': '#CC2D4A',
+      'secondary': '#8FA206',
+      'tertiary': '#61AEC9',
+    },
+
+    shadow: {
+      'primary': '#CC2D4A',
+      'secondary': '#8FA206',
+      'tertiary': '#61AEC9',
+    },
+
     fontFamily:{
       Monserrat:['Montserrat Alternates','Montserrat', 'sans-serif']
     }
       
     },
+  },
+  variants:{
+    width:["responsive", "hover", "focus"],
   },
   plugins: [],
 }
