@@ -1,0 +1,18 @@
+** funciones y componentes
+
+    ** @apply   @layer  @config
+
+ingresamos a la carpeta src/style.css
+
+y creamos la lase que vamos a utilizar
+
+    .nombreDeLaClase {
+         @apply ( o metodo de componente) codigo para la clase ;
+    }
+
+        ** .card {
+        @apply w-48 h-64 shadow-md rounded-lg;
+        }
+
+    re lanzar el script que ya creamos en el .json 
+
