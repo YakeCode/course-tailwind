@@ -1,0 +1,70 @@
+***     CONFIGURAR COMANDO AUTOMATIZADO PARA CARGAR EL ARCHIVO DE CONFIGURACION
+
+    dentro de packge.json 
+
+    en la seccion de scripts agregar la siuiente sintaxix
+
+    "nombreDelComanso":comando a ejecutar
+
+    ** "tw:build":"tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch" **
+
+    para mandarlo a llamar utilizamos
+         
+        ** npm run 'comando' ** comando = nombre del comando
+
+    npm run tw:build  // esto en la consola cada vez que modifiquemos el archivo tailwind.config.js
+
+******************
+
+***     CONFIGURAR  VARIABLES
+
+    vamos al archivo de configuracion 'tailwind.config.js'
+
+    dentro de /'theme : { extend:{} }'/ ingresamos las variables en extend
+
+*** imagenes de fondo
+
+    backgroundImage: {
+        
+        'nombreDeLaImagen':"url( ubicacion del archivo)",   con la coma separamos las imagenes
+
+        ** 'sanFrancisco': "url('../img/sanFrancisco.jpg')", **
+    },
+
+*** Colores de fondo
+
+    sintaxis    backgroundColor: theme =>({
+                    ...theme('colors'),
+                    'nombreDelColor': 'color',
+                }),
+
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'primary': '#cc2d4a',
+    }),
+
+*** Color de texto
+
+    *** textColor:{ 'nombreDelColor': 'Color'} ***
+    
+    textColor:{
+      'primary': '#cc2d4a',
+    },
+
+*** Fuente de la letra
+
+    vamos a google fonts, buscamos el nombre de la fuente y su variable o variables y las seleccionamos
+
+    - copiamos los lynk rel en el html
+
+    - copiamos las css rules en el archivo de configuracion
+
+    *** En el archivo
+
+    fontFamily:{ nombreDELaFuente:[ 'css rules']}
+
+        fontFamily:{
+            Monserrat:['Monserrat', 'sans-serif']
+         }
+
+

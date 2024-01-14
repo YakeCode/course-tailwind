@@ -2,14 +2,14 @@
 
 mobile firs -> mejor ux
 
-Caracteristicas 
+*** Caracteristicas 
 
         - representado mediante clases 
         - orientado a utilidades 
         - personalizable 100%
         - utility first
 
-Instalacion 
+*** Instalacion 
 
     instalar extension en vscode tailwind intelliSense
     
@@ -19,47 +19,19 @@ Instalacion
 
     seguir los pasos https://tailwindcss.com/docs/installation
 
-**** Directivas
+*** Directivas
 
-@tailwind base  - > inicializa todos los elemntos de html sin estilo
+    @tailwind base  - > inicializa todos los elemntos de html sin estilo
 
-@tailwind component -> nos permite acceder a todas las clases tailwind
+    @tailwind component -> nos permite acceder a todas las clases tailwind
 
-@tailwind utilities -> agrega todas las utilidades al proyecto y nos permite acceder a ellas
+    @tailwind utilities -> agrega todas las utilidades al proyecto y nos permite acceder a ellas
 
-@tailwind screens -> deja modificar y customizar braik points (tamaños de pantalla)
+    @tailwind screens -> deja modificar y customizar braik points (tamaños de pantalla)
 
-https://v2.tailwindcss.com/docs/functions-and-directives
+    https://v2.tailwindcss.com/docs/functions-and-directives
 
-////////////
 
-configurar color personalizado
-
-se hace dentro del archivo tailwind.config.js
-
-primero va el nombre y luego el valor que le vamos a dar
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-      'midnight': '#121063',
-      'metal': '#565584',
-      'tahiti': '#3ab7bf',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
-    },
-  },
-}
-
-////////////////////
-
-break points
 
 
 
