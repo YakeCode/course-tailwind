@@ -32,7 +32,16 @@ mobile firs -> mejor ux
     https://v2.tailwindcss.com/docs/functions-and-directives
 
 
+    ______________________________________________________________________________________
 
+
+RESPONCIVE
+
+ya tiene unas caracteristicas pre establecidas para diferentes tamaños de pamtalla
+
+si no quiero que algo aparezca en un tamaño de pantalla pongo el tamaño (sm, md.lg,xl) : hidden
+
+                lg:hidden
 
 
 
